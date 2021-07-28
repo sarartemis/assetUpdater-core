@@ -25,7 +25,8 @@ AssetUpdater 为开发者提供了方便的生成以及下载 Assetbundle 的工
 
 导入插件后单击 Unity 菜单栏中的 `Window/AssetUpdater Settings`即可在 Inspector 中显示设置面板。如下图所示：
 
-![AssetUpdater settings](http://osccnzbxn.bkt.clouddn.com/17070701.png)
+![image](https://user-images.githubusercontent.com/18496210/127290616-0e4db4be-06ce-435b-9ad1-1df4d5e489e3.png)
+
 
 当你为某些文件设置`assetbundle name`后，该 assetbundle 就会出现在`Local Bundles`或`Remote Bundles`中，其中`Local Bundles`中的 assetbundle 会在生成后被额外复制到`streamingassets`目录下。在打包时随安装包发布，并生成独特的 versionfile 做记录，防止资源重复下载。
 
